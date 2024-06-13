@@ -1,50 +1,39 @@
-css
-h1 {
-  color: #333;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: left;
-}
-
-th {
-  background-color: #f0f0f0;
-}
-
-tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-h2 {
-  color: #666;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: #337ab7;
-}
-
-a:hover {
-  color: #23527c;
-}
+<style>
+  body {
+    background-color: #87CEEB; /* Sky blue background color */
+  }
+  
+  h1, h2 {
+    color: #000; /* Black text color for headings */
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Light gray border for table cells */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Light gray border for list items */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00698f; /* Blue text color for links */
+  }
+  
+  a:hover {
+    color: #004461; /* Darker blue text color for links on hover */
+  }
+</style>
