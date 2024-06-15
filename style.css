@@ -10,7 +10,9 @@
   table {
     border-collapse: collapse;
   }
-  
+  h1, h2 {
+    color: green;
+  }
   th, td {
     border: 1px solid #ddd; /* Light gray border for table cells */
     padding: 10px;
